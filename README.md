@@ -61,8 +61,6 @@ I am a full-stack software
 
 @charset "utf-8";
 
-/*2+1+1+1+1+1+2+1+2+1+3*/
-
 header{
 	color: black;
 	background-color: transparent;
