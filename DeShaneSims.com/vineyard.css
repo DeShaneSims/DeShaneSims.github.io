@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+header{
+	background-color: white;
+	top: 0;
+	margin: 0;
+	width: 1335px;
+}
+
+nav.topright ul{
+    text-align: right;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+	z-index: 3px;
+}
+
+nav.topright ul li {
+	text-align: right;
+	list-style-type: none;
+    display: inline;
+}
+
+nav.topright ul li a{
+    color: cadetblue;
+    background-color: white;
+}
+
+nav.center ul{
+	text-align: center;
+	background-color: black;
+	box-shadow: 1px 3px #e0cd67;
+	width: 1300px;
+    min-width: 1000px;
+}
+
+nav.center ul li{
+	background-color: black;
+	
+	display: inline-block;
+	padding: 10px;
+}
+
+nav.center ul li a{
+	text-align: center;
+	color: white;
+	background-color: black;
+	letter-spacing: 2px;
+	font-family: josefin sans, serif;
+}
+
+.gallery {
+  --s: 150px; /* control the size */
+  --g: 8px;  /* control the gap */
+  display: grid;
+  margin: calc(var(--s) + var(--g));
+  place-content: center;
+  }
+
+.gallery > img {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1.15;
+  object-fit: ;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
+  transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .2s linear;
+  
+}
+.gallery > img:hover {
+  filter: grayscale(0);
+  z-index: 1;
+  --_t: 1.2;
+}
+
+.gallery > img:nth-child(1) {--_y: calc(-100% - var(--g))}
+.gallery > img:nth-child(7) {--_y: calc( 100% + var(--g))}
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(5) {--_x: calc(-75% - .87*var(--g))}
+.gallery > img:nth-child(4),
+.gallery > img:nth-child(6) {--_x: calc( 75% + .87*var(--g))}
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(4) {--_y: calc(-50% - .5*var(--g))}
+.gallery > img:nth-child(5), 
+.gallery > img:nth-child(6) {--_y: calc( 50% + .5*var(--g))}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: table;
+  background: black;
+  padding: 0;
+  max-width: 1310px;
+  min-width: 1000px;
+}
+
+.left-text{
+	text-align: left;
+	float: left;
+	color: #e0cd67;
+	height: 300px;
+}
+
+h1{
+	text-decoration: underline;
+	color: #e0cd67;
+	text-align: center;
+	font-size: 3em;
+}

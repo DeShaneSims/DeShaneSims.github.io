@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*DeShane` Sims*/
+
+header{
+	background-color: white;
+	width: 100%;
+	top: 0;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background-color: black;
+  color: #e0cd67;
+  place-content: center; 
+ 
+} 
+
+nav.topright ul{
+    text-align: right;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+nav.topright ul li {
+	text-align: right;
+	list-style-type: none;
+    display: inline;
+}
+
+nav.topright ul li a{
+    color: cadetblue;
+    background-color: white;
+}
+
+
+nav.center ul{
+	text-align: center;
+	background-color: black;
+	box-shadow: 1px 3px #e0cd67;
+
+}
+
+nav.center ul li{
+	background-color: black;
+	
+	display: inline-block;
+	padding: 10px;
+}
+
+nav.center ul li a{
+	text-align: center;
+	color: white;
+	background-color: black;
+	letter-spacing: 2px;
+	font-family: josefin sans, serif;
+}
+
+h1, h2,h3{
+	color: #e0cd67;
+  text-decoration: underline;
+  background-color: black;
+  font-size: 2em;
+  display: inline-table;
+}
+
+ol:before{
+	content:attr(aria-label);
+	font-size: 250%;
+	font-weight: bold;
+	margin-left: -40px;
+	text-decoration: underline;
+}
+
+ol{
+	color: #e0cd67;
+	list-style-type: circle;
+	display: inline-table;
+	line-height: 30px;
+	padding-right: 150px;
+	padding-left: 150px;
+
+}
+
+.photo {
+	float: left;
+    width: 33%;
+    padding: 0px;
+    padding-top: 0px;
+	background-color: transparent;
+	opacity: 0.5;
+}
+
+photos::after{
+  display: block;
+}
+
+h4{
+	color: #e0cd67;
+  text-decoration: underline;
+  font-size: 3em;
+  text-align: center;
+}
+
+p{
+	text-align: center;
+}
