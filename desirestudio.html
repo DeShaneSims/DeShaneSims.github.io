@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>desirestudio.html</title>
+<link href="desireaboutcss.css" type="text/css" rel="stylesheet"/>	
+</head>
+<body>
+<header>
+   <img src="logoblank.JPG">
+<nav class="center">
+   <ul style="list-style: none;">
+   <li><a href="desirehome.html">home</a></li>
+	<li><a href="desireaboutus.html">about us</a></li>
+	<li><a href="desirecontact.html">contact us</a></li>
+   </ul>
+ </nav>
+    </header>
+    
+    <h2>
+   <br>Interior Designs</br>
+ </h2>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+ <div class="slideshow-container">
+
+<div class="mySlides slide">
+  <div class="numbertext"></div>
+  <img src="intdec4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="intdec6.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="int5.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+</body>
+<footer>
+<h3>
+   <br>your dreams come true</br>
+</h3>
+<nav>
+ <ul style="list-style: none;">
+	<li><a href="desireaboutus.html">about us</a></li>
+	<li><a href="desirestudio.html">studio</a></li>
+	<li><a href="desireprojects.html">projects</a></li>
+	<li><a href="desirereviews.html">reviews</a></li>
+	<li><a href="desirecontact.html">contact us</a></li>
+   </ul>
+</nav>
+<a href="desirehome.html">Return to Home</a>
+<a href="facebook.com">Facebook</a></li>
+<a href="instagram.com">Instagram</a></li>
+<a href="twitter.com">Twitter</a></li>
+<a href="tiktok.com">Tik Tok</a></li>
+</footer>

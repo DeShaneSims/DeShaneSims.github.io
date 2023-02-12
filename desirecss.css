@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+ title:desiress.css
+by: DeShane` Sims
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida handwriting", "brush script m7", cursive;
+}
+
+h1{
+	font-family: "Lucida handwriting", "brush script m7", cursive;
+	font-size: 50px;
+	color: rgb(212, 175, 55);
+}
+
+h2 {
+	font-size: 25px;
+	font-family: "lucida console", "monaco", monospace;
+}
+nav.center ul{
+	text-align: center;
+	background-color: antiquewhite;
+	box-shadow: 1px 3px antiquewhite;
+	width: 100%;
+    z-index: 3;
+}
+
+nav.center ul li{
+	background-color: antiquewhite;
+	
+	display: inline-block;
+	padding: 10px;
+}
+
+nav.center ul li a{
+	text-align: center;
+	color: rgb(212, 175, 55);
+	background-color: antiquewhite;
+    font-family: "Lucida handwriting", "brush script m7", cursive;
+}
+
+
+body{
+	background-color: rgb(100, 75, 50);
+}
+
+footer {
+	background-color: rgb(139, 146, 154);
+	position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
