@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*DeShane Sims Experience Page*/
+
+header{
+	border: none;
+	
+}
+.site-nav ul{
+	background-color: transparent;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-left: 430px;
+}
+
+.site-nav ul li{
+	background-color: transparent;
+	font-family: allura;
+	font-size: 2em;
+	display: inline;
+}
+
+.site-nav ul li a{
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-family: carattere;
+	font-size: 2.7em;
+    height: 5px;
+	display: inline-block;
+}
+
+#h1{
+	font-size: 10px;
+	font-family: aboreto;
+	display: inline-block;
+}
+h2{
+	font-family: aboreto;
+	text-align: center;
+}
+
+body{
+	background-color: #c0c0c0;
+	
+	
+}
+
+#resume{
+	border: 5px double white;
+}
+
+.title {
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+.return{
+	text-align: center;
+}
+
+.site-end{
+	text-align: center;
+}
